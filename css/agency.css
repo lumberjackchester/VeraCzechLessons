@@ -55,6 +55,10 @@ h6 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
+ul {
+    list-style: none;
+    
+}
 
 .img-centered {
     margin: 0 auto;
@@ -653,12 +657,15 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
+    background-image: url(../img/flag.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
 
-section#contact .section-heading {
+section#contact ul {
+    margin-top: 40px;   
+}
+section#contact .section-heading, #contact .info {
     color: #fff;
 }
 
